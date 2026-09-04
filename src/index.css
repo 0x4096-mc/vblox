@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'VK Sans Display';
+  /* Укажи правильное название твоего файла ниже */
+  src: url('/fonts/VKSansDisplayDemiBoldFaux.v100.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  background-color: black;
+  color: white;
+}
