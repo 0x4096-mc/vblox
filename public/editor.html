@@ -35,16 +35,6 @@
 			background-repeat: no-repeat;
 			background-attachment: fixed;
 		}
-		#container .monaco-editor .overflow-guard {
-            padding-left: 20px !important;  
-            padding-right: 20px !important; 
-            box-sizing: border-box !important;
-        }
-
-        #container .monaco-editor .overflow-guard > .monaco-scrollable-element {
-            width: 100% !important;
-        }
-		
 	</style>
 	<meta charset="utf-8" />
 	<title></title>
@@ -193,19 +183,8 @@
 					{ token: 'support.type', foreground: '#5ab6d6' },
 				],
 				colors: {
-					'editor.background': '#0a0a0a',
-					'editor.scroll': '#111111',
-					'editor.lineHighlightBorder': '#111111', 
-					'editorLineNumber.foreground': '#7A7A7A',
-					'editorLineNumber.activeForeground': '#BBBBBB',
-					'editorIndentGuide.background': '#282828',
-					'editorSuggestWidget.background': "#181818",
-					'editorSuggestWidget.border': "#000000",
-					'editorSuggestWidget.foreground': "#D5D5D5",
-					'editorSuggestWidget.selectedBackground': "#363636",
-					'editorSuggestWidget.highlightForeground': "#18A0FB",
-					'textCodeBlock.background': '#181818',
-				}
+                    'editor.background': '#0c0c0c',
+                }
 			});
 
 
@@ -248,12 +227,6 @@
 					padding: {
 						top: 24,
 					},
-					scrollbar: {
-						vertical: 'hidden',
-						horizontal: 'hidden',
-						handleMouseLeave: true,
-						useShadows: false
-					}
 				});
 
 				try {
